@@ -15,10 +15,13 @@ public class StudentList {
     
     public static void main(String[] args)
     {
-       Student [] studentList = new Student[1];//change size before running
+       Student [] studentList = new Student[2];//change size before running
        Student s1 = new Student();
+       Student s2 = new Student();
        s1.setName("Lizard Dancyy");
+       s2.setName("Farts McGee");
        studentList[0]=s1;
+       studentList[1]=s2;
        //fill in 4 student names before running
        for(Student s: studentList)
        {
