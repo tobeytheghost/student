@@ -11,10 +11,12 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * each student can: say their name (getName)
  * 
  * @author dancye May 7, 2018
+ Edited by: M.F
  */
 public class Student 
 {
     private String name;
+    
 
     /**
      * @return the name
